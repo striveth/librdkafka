@@ -26,6 +26,7 @@ set(
     rdkafka_partition.c
     rdkafka_pattern.c
     rdkafka_queue.c
+    rdkafka_random_assignor.c
     rdkafka_range_assignor.c
     rdkafka_request.c
     rdkafka_roundrobin_assignor.c

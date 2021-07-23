@@ -47,7 +47,7 @@ SRCS=		rdkafka.c rdkafka_broker.c rdkafka_msg.c rdkafka_topic.c \
 		rdkafka_msgset_writer.c rdkafka_msgset_reader.c \
 		rdkafka_header.c rdkafka_admin.c rdkafka_aux.c \
 		rdkafka_background.c rdkafka_idempotence.c rdkafka_cert.c \
-		rdvarint.c rdbuf.c rdunittest.c \
+		rdvarint.c rdbuf.c rdunittest.c rdkafka_random_assignor.c \
 		$(SRCS_y)
 
 HDRS=		rdkafka.h
